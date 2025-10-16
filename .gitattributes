@@ -71,7 +71,7 @@
 *.gz       binary
 *.tar      binary
 *.tgz      binary
-*.zip      binary
+#*.zip      binary
 
 # Text files where line endings should be preserved
 *.patch    -text
@@ -133,5 +133,5 @@ gradlew         text eol=lf
 ############################
 # Custom Binaries
 ############################
-**/*.zip filter=lfs diff=lfs merge=lfs -text
-*.zip filter=lfs diff=lfs merge=lfs -text
+#**/*.zip filter=lfs diff=lfs merge=lfs -text
+#*.zip filter=lfs diff=lfs merge=lfs -text
